@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMK Negeri 1 Sidrap</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            background: #e0f7fa;
+            color: #333;
+            overflow-x: hidden;
+        }
+        header {
+            background: #00796b;
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+            animation: fadeInDown 1.5s ease;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+        }
+        header p {
+            margin-top: 10px;
+            font-size: 1.2em;
+        }
+        section {
+            padding: 40px 20px;
+            animation: fadeInUp 2s ease;
+        }
+        h2 {
+            color: #00796b;
+        }
+        ul {
+            list-style-type: circle;
+            padding-left: 20px;
+        }
+        footer {
+            background: #004d40;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9em;
+            animation: fadeIn 3s ease;
+        }
+        /* Animasi */
+        @keyframes fadeInDown {
+            from { opacity: 0; transform: translateY(-50px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(50px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>SMK Negeri 1 Sidrap</h1>
+    <p>Membangun Generasi Berkompeten dan Berdaya Saing Global</p>
+</header>
+
+<section>
+    <h2>Profil Sekolah</h2>
+    <p>SMK Negeri 1 Sidrap adalah sekolah kejuruan unggulan di Kabupaten Sidenreng Rappang (Sidrap) yang fokus pada pendidikan berbasis keterampilan untuk mendukung perkembangan industri dan teknologi.</p>
+</section>
+
+<section>
+    <h2>Jurusan Unggulan</h2>
+    <ul>
+        <li>Teknik Komputer dan Jaringan (TKJ)</li>
+        <li>Rekayasa Perangkat Lunak (RPL)</li>
+        <li>Akuntansi dan Keuangan Lembaga (AKL)</li>
+        <li>Otomatisasi dan Tata Kelola Perkantoran (OTKP)</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Kontak Kami</h2>
+    <p>Email: info@smkn1sidrap.sch.id</p>
+    <p>Telepon: +6282193972850</p>
+    <p>Alamat: Jl. A. Pangeran Pettarani No.25, Rijang Pitu, Maritengngae, Sidenreng Rappang Regency, South Sulawesi 91611</p>
+</section>
+
+<footer>
+    &copy; 2025 SMK Negeri 1 Sidrap. Semua Hak Dilindungi.Html Script By Agiet X TKJ 1.
+</footer>
+
+</body>
+</html>

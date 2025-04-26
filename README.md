@@ -30,10 +30,3 @@ Proyek ini dibuat sebagai bagian dari perjalanan untuk mengasah kemampuan coding
 - Terbuka untuk kolaborasi
 
 ---
-
-## Cara Menggunakan
-
-1. Fork repository ini
-2. Clone ke lokal:
-   ```bash
-   git clone https://github.com/username/agiet.git
